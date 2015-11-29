@@ -1,0 +1,2 @@
+# CUnitTestBuilder
+A library that when linked with your files will build for each test writen in NEW_TEST functions with the macro PUSH_TEST(nameOfTheTestInString, bodyOfTheTestWith{}) a new program along with a Shell sript, You can precise your compile flags by defining #COMPILE_FLAGS and includes with #INCLUDES. The Shell script will inform you of the result of each test and the number of frees and allocs for it.
